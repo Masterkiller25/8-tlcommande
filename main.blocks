@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="V2deF9EHnIyAdpmfa+|_" x="20" y="20"><statement name="HANDLER"><block type="device_show_leds" id=",Qu[fsY%DYs2A?~Eo8lx"><field name="LEDS">`
+        # # # . . 
+        . . . # . 
+        # # . . # 
+        . . # . # 
+        # . # . #
+        `</field><next><block type="radio_set_group" id="O_|k23d((+DTv*PQV.}V"><value name="ID"><shadow type="math_number_minmax" id="_8P61K]nctQ}91^[f{Jt"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">5</field></shadow></value></block></next></block></statement></block><block type="device_forever" id="ouP;M)_Q^JKqm}s}`@dE" x="293" y="20"><statement name="HANDLER"><block type="radio_datagram_send_value" id="PKZ*SZK|KMCPdWFC*C)D"><value name="name"><shadow type="text" id="%2h_@;7ZUND43Q5OJ|tY"><field name="TEXT">droite</field></shadow></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_acceleration" id="UIXEgggO/*JJyyiov|g]"><field name="NAME">Dimension.X</field></block></value><next><block type="radio_datagram_send_value" id="Oq,i=7,Tda3tS*u|G_q%"><value name="name"><shadow type="text" id="L!]jtaDdbp]05:U@R=6}"><field name="TEXT">guache</field></shadow></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_acceleration" id="qPu6#lduK9N(eOo4!5e$"><field name="NAME">Dimension.Y</field></block></value></block></next></block></statement></block></xml>
